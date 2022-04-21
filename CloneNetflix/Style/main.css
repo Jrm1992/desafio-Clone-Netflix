@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family: 'Arial', Times, serif;
+    color:white;
+ }
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 55px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+header nav{
+    margin-left: 20px;
+}
+header nav a{
+    text-decoration: none;
+    padding:5px;
+    color: #AAA;
+}
+header nav a:hover{
+    color: #fff;
+}
+.filme-principal{
+    background: url(../img/banner.png);
+    background-size:cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.descricao{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 350px;
+}
+.titulo{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.botao{
+    padding-top:40px;
+    margin-left: 30px;
+}
+main .play:hover{
+    background-color:rgb(255, 0, 0) ;
+}
+main .play{
+    background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-color:rgb(221, 20, 20);
+    background-position: left;
+    background-position-x: 10px;
+    border: 1px solid rgb(221, 20, 20);
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+  }
+main .list:hover{
+    background-color:rgb(56, 56, 56) ;
+}
+main .list{
+    background-image: url(../img/add.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    background-color:black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+  }
+.poster img{ 
+    height: 200px;
+}
