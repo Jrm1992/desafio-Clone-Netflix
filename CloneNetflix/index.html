@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <div lang="pt-br">
     <head>
+        <link rel="stylesheet" href=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+            </script>
+            <script src=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+            </script>
         <link rel="stylesheet" href="./Style/owl/owl.carousel.min.css">
         <link rel="stylesheet" href="./Style/owl/owl.theme.default.min.css">
         <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
@@ -14,8 +22,8 @@
             <div class="container">
                 <img class="logo" src="./img/Logo.png" alt="Logo Netflix">
                 <nav>
-                    <a href="">Inicio</a>
-                    <a href="">Series</a>
+                    <a href="./index.html">Inicio</a>
+                    <a href="./series.html">Series</a>
                     <a href="">Filmes</a>
                     <a href="">Adicionados Recentemente</a>
                     <a href="">Minha Lista</a>
@@ -43,23 +51,102 @@
         <div class="carroseel">
             <div class="owl-carousel owl-theme">
                 <div class="item"> 
-                    <div class="poster"> <img src="./img/Cavaleiro.jpg" alt=""></div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <img src="./img/Cavaleiro.jpg" alt="">
+                    </button>
                 </div>
-                <div class="item"> 
-                    <div class="poster"> <img src="./img/Halo.jpg" alt=""></div>
+                <div class="item">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2"> 
+                        <img src="./img/Halo.jpg" alt="">
+                    </button>
                 </div>
-                <div class="item"> 
-                    <div class="poster"> <img src="./img/twd.jpg" alt=""></div>
+                <div class="item">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3"> 
+                        <img src="./img/twd.jpg" alt="">
+                    </button>
                 </div>
-                <div class="item"> 
-                    <div class="poster"> <img src="./img/vk.jpg" alt=""></div>
+                <div class="item">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa4"> 
+                        <img src="./img/vk.jpg" alt="">
+                    </button>
                 </div>
-                <div class="item"> 
-                    <div class="poster"> <img src="./img/peaky.jpg" alt=""></div>
+                <div class="item">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa5"> 
+                        <img src="./img/peaky.jpg" alt="">
+                    </button>
                 </div>
-                <div class="item"> 
-                    <div class="poster"> <img src="./img/pasion.jpg" alt=""></div>
+                
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rz2WBg5g7Ek?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
+          <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tpv6uIAlXaw?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qAS8f9L-vWc?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nHMQBg6Zduc?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2nsT9uQPIrk?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
             </div>
         </div>
 
