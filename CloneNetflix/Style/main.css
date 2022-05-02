@@ -29,11 +29,10 @@ header nav a:hover{
     color: #fff;
 }
 .filme-principal{
-    background: url(../img/banner.png);
     background-size:100% auto;
     background-repeat: no-repeat;
     height: 550px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -45,10 +44,14 @@ header nav a:hover{
     width: 350px;
 }
 .titulo{
+    position: absolute;
+    top: 180px;
     font-size: 40px;
     margin-left: 30px;
 }
 .botao{
+    position: absolute;
+    bottom: 75px;
     padding-top:40px;
     margin-left: 30px;
 }
@@ -86,12 +89,25 @@ main .list{
     font-size: 12px;
     cursor: pointer;
   }
-.poster img{ 
-    height: 200px;
-}
 
 .btn{
     width: 150px;
     padding: 0;
     background: none;
+}
+#Cavaleiro{
+    display: flex;
+}
+button{
+    border: none;
+}
+.item img{
+    height: 250px;
+}
+.carrossel{
+    padding-bottom: 30px;
+}
+footer{
+    height: 50px;
+    position: fixed;
 }

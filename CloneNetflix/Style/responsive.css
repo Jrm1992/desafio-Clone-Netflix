@@ -3,5 +3,18 @@
         display: flex;
         flex-direction: column;
         }
+    .botao{
+        margin-top: 5px;
+        height: 10px;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+    }
+    .play{
+        margin-bottom: 10px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
 
 }
