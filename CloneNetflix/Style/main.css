@@ -111,3 +111,6 @@ footer{
     height: 50px;
     position: fixed;
 }
+#thumb-img:hover{
+    transform: scale(1.1);
+}
